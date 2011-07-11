@@ -1,0 +1,110 @@
+/*  
+Theme Name: Lander - Premium landing page
+Desc: Color definitions
+Theme URI: http://themeforest.net/user/kristofferlidman
+Version: 1.0
+Author: Kristoffer Lidman
+Author URI: http://identa.se/
+*/
+/*-------------  Blue   -------------*/
+body.blue a {
+	color: #3FA9C8;
+}
+body.blue #content #left h1 {
+	color: #3FA9C8;
+}
+body.blue #content #right .buttons .buy, body.blue .last_chance .buy {
+	text-shadow: 0 1px 1px #308098;
+	background: url(../img/colorstyles/buy_blue.png) no-repeat;
+}
+body.blue #content #banner {
+	background: url(../img/banner_2.png) no-repeat;
+}
+/*-------------  Green   -------------*/
+body.green a {
+	color: #85a439;
+}
+body.green #content #left h1 {
+	color: #9cc143;
+}
+body.green #content #right .buttons .buy, body.green .last_chance .buy {
+	text-shadow: 0 1px 1px #6c852e;
+	background: url(../img/colorstyles/buy_green.png) no-repeat;
+}
+body.green #content #banner {
+	background: url(../img/colorstyles/banner_green.png) no-repeat;
+}
+/*-------------  Orange   -------------*/
+body.orange a {
+	color: #e96a31;
+}
+body.orange #content #left h1 {
+	color: #e96a31;
+}
+body.orange #content #right .buttons .buy, body.orange .last_chance .buy {
+	text-shadow: 0 1px 1px #ad3a1a;
+	background: url(../img/colorstyles/buy_orange.png) no-repeat;
+}
+body.orange #content #banner {
+	background: url(../img/colorstyles/banner_orange.png) no-repeat;
+}
+/*-------------  Red   -------------*/
+body.red a {
+	color: #fc433a;
+}
+body.red #content #left h1 {
+	color: #fc433a;
+}
+body.red #content #right .buttons .buy, body.red .last_chance .buy {
+	text-shadow: 0 1px 1px #ad3a1a;
+	background: url(../img/colorstyles/buy_red.png) no-repeat;
+}
+body.red #content #banner {
+	background: url(../img/colorstyles/banner_red.png) no-repeat;
+}
+/*-------------  Yellow   -------------*/
+body.yellow a {
+	color: #bea200;
+}
+body.yellow #content #left h1 {
+	color: #FFDA00;
+}
+body.yellow #content #right .buttons .buy, body.yellow .last_chance .buy {
+	text-shadow: 0 1px 1px #bda22d;
+	background: url(../img/colorstyles/buy_yellow.png) no-repeat;
+}
+body.yellow #content #banner {
+	background: url(../img/colorstyles/banner_yellow.png) no-repeat;
+}
+/*-------------  Pink   -------------*/
+body.pink a {
+	color: #a83f71;
+}
+body.pink #content #left h1 {
+	color: #d34f8e;
+}
+body.pink #content #right .buttons .buy, body.pink .last_chance .buy {
+	text-shadow: 0 1px 1px #a83f71;
+	background: url(../img/colorstyles/buy_pink.png) no-repeat;
+}
+body.pink #content #banner {
+	background: url(../img/colorstyles/banner_pink.png) no-repeat;
+}
+/*-------------  Purple   -------------*/
+body.purple a {
+	color: #8e3fca;
+}
+body.purple #content #left h1 {
+	color: #8e3fca;
+}
+body.purple #content #right .buttons .buy, body.purple .last_chance .buy {
+	text-shadow: 0 1px 1px #5d2984;
+	background: url(../img/colorstyles/buy_purple.png) no-repeat;
+}
+body.purple #content #banner {
+	background: url(../img/colorstyles/banner_purple.png) no-repeat;
+}
+/*------------- Misc -------------*/
+body.blue a:hover, body.green a:hover, body.orange a:hover, body.red a:hover, body.yellow a:hover, body.pink a:hover, body.purple a:hover {
+	color: #666;
+}

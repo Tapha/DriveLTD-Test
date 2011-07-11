@@ -1,0 +1,167 @@
+/*  
+Theme Name: Lander - Premium landing page
+Desc: Modal windows
+Theme URI: http://themeforest.net/user/kristofferlidman
+Version: 1.0
+Author: Kristoffer Lidman
+Author URI: http://identa.se/
+*/
+/*------- Modal --------*/
+.modal_window {
+    display: none;
+    position: fixed;
+    top: 26%;
+    left: 52%;
+    margin-left: -300px;
+    width: 530px; 
+    color: #333;
+    padding: 0;
+}
+/*----- Close button -----*/
+.modal_window .jqmClose {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	background: url(../img/modal_close.png) no-repeat;
+	text-indent: -9999px;
+}
+.modal_window .modal_top {
+	width: 530px;
+	height: 10px;
+	float: left;
+	background: url(../img/modal.png) no-repeat;
+}
+/*----- Content area -----*/
+.modal_window .modal_content {
+	width: 500px;
+	padding: 5px 15px 0px 15px;
+	float: left;
+	color: #666;
+	background: #fff;
+}
+.modal_window .modal_content p.text_only {
+	font-size: 16px;
+	margin: 15px 0 15px 0;
+}
+/*----- Heading -----*/
+.modal_window .modal_content .headline {
+	width: 500px;
+	float: left;
+	font-size: 22px;
+	font-weight: bold;
+	color: #222;
+	margin: 0 0 15px 0;
+	padding: 0 0 8px 0;
+	border-bottom: 1px dotted #eee;
+}
+.modal_window .modal_bott {
+	width: 530px;
+	height: 10px;
+	float: left;
+	background: url(../img/modal.png) no-repeat bottom center;
+}
+/*----- Form -----*/
+.modal_window .modal_content dl.form {
+	width: 500px;
+	float: left;
+	margin: 0 0 10px 0;
+}
+.modal_window .modal_content dl.form dt {
+	width: 135px;
+	height: 36px;
+	float: left;
+	color: #333;
+	font-size: 16px;
+	padding: 4px 0 0 0;
+	font-weight: bold;
+}
+.modal_window .modal_content dl.form dd {
+	width: 360px;
+	height: 40px;
+	float: right;
+}
+.modal_window .modal_content dl.form dd .field {
+	width: 270px;
+	padding: 5px 10px 10px 10px;
+	float: left;
+	line-height: 0;
+	font-size: 13px;
+	text-shadow: 0 1px 0 #fff;
+	background: url(../img/textfield.png) no-repeat;
+	border: none;
+}
+.modal_window .modal_content dl.form dd .textarea {
+	width: 330px;
+	height: 110px;
+	padding: 5px 10px 10px 10px;
+	float: left;
+	text-shadow: 0 1px 0 #fff;
+	background: url(../img/textarea.png) no-repeat;
+	border: none;
+}
+.modal_window .modal_content dl.form dd.big {
+	height: auto;
+}
+.modal_window .modal_content #submit {
+	width: 130px;
+	float: right;
+	margin: 0 10px 15px 0;
+	padding: 5px 0 8px 0;
+	font-weight: bold;
+	font-size: 16px;
+	color: #333;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 0 1px 1px #fff;
+	background: url(../img/submit.png) no-repeat;
+	border: none;
+	outline: none;
+}
+/*----- Webkit and IE fixes for form -----*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.modal_window .modal_content dl.form dd .field {
+		padding: 0 10px 15px 10px;
+	}
+	.modal_window .modal_content #submit {
+		padding: 7px 0 9px 0;
+	}
+}
+.modal_window .modal_content dl.form dd .field {
+	padding: 12px 10px 10px 10px\9;
+}
+.modal_window .modal_content #submit {
+	padding: 6px 0 10px 0\9;
+}
+.jqmOverlay { background-color: #000; }
+* html .modal_window {
+	position: absolute;
+	top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+/*------ Validation message -----*/
+.error_message, .ok_message {
+	width: 470px;
+	padding: 15px;
+	margin: 0 0 20px 0;
+	float: left;
+	color: #444;
+	text-shadow: 0 1px 0 #ddd;
+	font-size: 14px;
+	background: #eee;
+	text-shadow: 0 1px 0 #fff;
+	font-weight: bold;
+	-webkit-border-radius: 4px;  
+	-moz-border-radius: 4px;  
+	border-radius: 4px;
+}
+.error_message p, .ok_message p {
+	margin: 0;
+	padding: 0 0 0 30px;
+}
+.error_message p {
+	background: url(../img/icons/icon_error.png) no-repeat 0 1px;
+}
+.ok_message p {
+	background: url(../img/icons/icon_ok.png) no-repeat 0 1px;
+}

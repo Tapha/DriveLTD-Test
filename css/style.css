@@ -1,0 +1,509 @@
+/*  
+Theme Name: Lander - Premium landing page
+Desc: Main styles
+Theme URI: http://themeforest.net/user/kristofferlidman
+Version: 1.0
+Author: Kristoffer Lidman
+Author URI: http://identa.se/
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	background: #F3F3F3 url(../img/bg.png) repeat;
+	color: #666;
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	border: none;
+	outline: none;
+	text-decoration: none;
+}
+a:hover  { color: #666; }
+*:focus { outline: none; }
+textarea { overflow: auto; resize: none }
+p { margin: 0 0 15px 0; }
+img  { border: none; }
+.alignleft  {
+	float: left;
+}
+.alignright  {
+	float: right;
+}
+/*----- img -----*/
+img.imgbox {
+	padding: 5px;
+	-webkit-box-shadow: 0px 2px 4px #d0d0d0;
+	-moz-box-shadow: 0px 2px 4px #d0d0d0;
+	box-shadow: 0px 2px 4px #d0d0d0;
+	-webkit-border-radius: 4px;  
+	-moz-border-radius: 4px;  
+	border-radius: 4px;
+}
+img.alignright {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+img.alignleft {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+/*----- Headings -----*/
+h1, h2, h3, h4, h5  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+}
+/*----- Clickable logo -----*/
+.frontpage {
+	display: block;
+	width: 300px;
+	height: 40px;
+	border: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-indent: -9999px;
+}
+.frontpage a {
+	display: block;
+	outline: none;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+/*----- Top menu bar -----*/
+#menu_bar  {
+	width: 100%;
+	height: 35px;
+	margin: 0px auto 20px auto;
+	background: #3c4447 url(../img/menu_bar.png) repeat-x;
+	border-bottom: 1px solid #fff;
+	overflow: hidden;
+	text-shadow: 0 1px 0 #33393c;
+}
+#menu_bar .container {
+	width: 900px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+#menu_bar .container ul {
+	float: right;
+	list-style-type: none;
+	margin: 7px 0 0 0;
+	padding: 0;
+}
+#menu_bar .container ul li {
+	float: left;
+	margin: 0 0 0 15px;
+	font-weight: bold;
+}
+#menu_bar .container ul li a {
+	color: #fff;
+}
+#menu_bar .container ul li a:hover {
+	color: #ccc;
+}
+/*----- Main wrapper -----*/
+#wrapper  {
+	width: 900px;
+	margin: 30px auto;
+	padding: 0 4px;
+	overflow: hidden;
+}
+/*----- Header -----*/
+#header {
+	width: 900px;
+	height: 70px;
+	float: left;
+	text-shadow: 0 1px 0 #fff;
+	background: url(../img/logo.png) no-repeat;
+}
+.call {
+	float: right;
+	font-size: 26px;
+	padding: 3px 0 3px 47px;
+	font-weight: bold;
+	background: url(../img/icons/icon_call.png) no-repeat 0 8px;
+}
+.call span {
+	font-size: 12px;
+	Text-transform: uppercase;
+	color: #999;
+	margin: 0 0 4px 0;
+	display: block;
+}
+/*----- Sales pitch -----*/
+#content {
+	width: 860px;
+	float: left;
+	margin: 0 0 20px 0;
+	padding: 20px 20px 0 20px;
+	font-size: 14px;
+	position: relative;
+	background: #fff;
+	-webkit-box-shadow: 0px 2px 4px #d0d0d0;
+	-moz-box-shadow: 0px 2px 4px #d0d0d0;
+	box-shadow: 0px 2px 4px #d0d0d0;
+	-webkit-border-radius: 4px;  
+	-moz-border-radius: 4px;  
+	border-radius: 4px;
+}
+/*----- Left content -----*/
+#content #left {
+	width: 430px;
+	float: left;
+}
+#content #left h1 {
+	font-weight: bold;
+	margin: 0 0 15px 0;
+	padding: 2px 0;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+#content #left p {
+	margin: 0 0 20px 0;
+	color: #888;
+	line-height: 1.6em;
+}
+#content #left p.half_margin {
+	margin: 0 0 10px 0;
+	line-height: 1.6em;
+}
+/*----- Checklist -----*/
+ul.checklist {
+	color: #222;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul.checklist li {
+	background: url(../img/checklist_check.png) no-repeat 0 4px;
+	float: left;
+	line-height: 1.4em;
+	padding-left: 24px;
+	width: 175px;
+	margin: 0 20px 15px 0;
+	font-size: 13.2px;
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.baldi {background: #3FA9C8; color: #FFF; width: 345px; padding: 3px;}
+#boldhome {background: #FF9;}
+ul.checklist li.right {
+	margin: 0 0 15px 0;
+}
+/*----- Right content -----*/
+#content #right {
+	width: 400px;
+	margin: 0 0 15px 0;
+	float: right;
+}
+#content #right .image {
+	width: 400px;
+	height: 200px;
+	float: left;
+	margin: 0 0 23px 0;
+	background: #eee;
+}
+#content #right .buttons {
+	width: 400px;
+	float: left;
+	background: url(../img/or.png) no-repeat 200px 8px;
+}
+/*----- Buy button -----*/
+#content #right .buttons .buy, .last_chance .buy {
+	width: 155px;
+	height: 35px;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 11px 0 0 45px;
+	margin: 0 98px 0 0;
+	color: #fff;
+}
+/*----- Read more -----*/
+#content #right .buttons .more {
+	float: left;
+	margin: 13px 0 0 0;
+	padding: 0 0 3px 0;
+	font-size: 20px;
+	font-style: italic;
+	color: #a2a2a2;
+	border-bottom: 1px dotted #eee;
+}
+#content #right .buttons .more:hover {
+	color: #666;
+	border-bottom: 1px dotted #ccc;
+}
+/*----- Price banner -----*/
+#content #banner {
+	width: 145px;
+	height: 147px;
+	position: absolute;
+	top: -4px;
+	right: -4px;
+}
+/*----- Tab area -----*/
+#tab_area {
+	width: 900px;
+	float: left;
+}
+#tabs {
+	width: 600px;
+	float: left;
+}
+/*---- Tabs -----*/
+ul.idTabs {
+  width: 570px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 14px;
+  background: url(../img/tabs_top.png) no-repeat;
+  float: left;
+  padding: 15px 20px 0 10px;
+  list-style-type: none;
+}
+ul.idTabs li {
+  background: url(../img/tab_link.png) no-repeat right top;
+  float: left;
+  color: #333;
+  margin: 0;
+}
+ul.idTabs li a {
+  padding: 10px 20px 7px 20px;
+  background: url(../img/tab_link-left.png) no-repeat left top;
+  float: left;
+  color: #333;
+  text-shadow: 0 1px 0 #fff;
+}
+ul.idTabs li a:hover {
+  color: #777;
+}
+ul.idTabs li.active {
+	background: url(../img/tab_active.png) no-repeat right top;
+}
+ul.idTabs li.active a {
+	background: url(../img/tab_active-left.png) no-repeat left top;
+}
+ul.idTabs li.active a:hover {
+	color: #666;
+}
+/*----- Tab content -----*/
+#tabs div {
+	width: 570px;
+	background: #fff;
+	padding: 15px 15px 0 15px;
+	margin: 0 0 20px 0;
+	float: left;
+	position: relative;
+	-webkit-box-shadow: 0px 3px 3px #d0d0d0;
+	-moz-box-shadow: 0px 3px 3px #d0d0d0;
+	box-shadow: 0px 3px 3px #d0d0d0;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+#tabs div h2, #tabs div h3 {
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+	color: #333;
+}
+#tabs div h2 {
+	font-size: 16px;
+}
+#tabs div h3 {
+	font-size: 14px;
+}
+#tabs div ul {
+	font-size: 12px;
+	margin: 0 0 15px 15px;
+	list-style-type: disc;
+}
+#tabs div ul li {
+	margin: 0 0 5px 0;
+}
+#tabs div ul.tab_features {
+	margin: 0;
+	list-style-type: none;
+}
+#tabs div ul.tab_features li {
+	margin: 0 0 20px 0;
+	float: left;
+	color: #888;
+	width: 284px;
+}
+#tabs div ul.tab_features li p {
+	float: right;
+	width: 225px;
+	margin: 0 15px 0 0;
+}
+#tabs div ul.tab_features li p strong {
+	float: left;
+	color: #444;
+	width: 225px;
+}
+#tabs div ul.tab_features li img {
+	margin: 0 10px 0 0;
+	float: left;
+}
+/*----- Quotes -----*/
+#quotes {
+	width: 280px;
+	float: right;
+	text-shadow: 0 1px 0 #fff;
+}
+#quotes .quote {
+	width: 280px;
+	height: 100px;
+	float: left;
+	margin: 0 0 20px 0;
+}
+#quotes .quote p {
+	width: 260px;
+	padding: 10px 10px 0 10px;
+	float: left;
+	color: #888;
+	background: url(../img/quote_bg.png) no-repeat top;
+	margin: 0;
+}
+#quotes .quote span {
+	width: 280px;
+	height: 10px;
+	padding: 13px 0 1px 0;
+	float: left;
+	background: url(../img/quote_bg.png) no-repeat bottom;
+	margin: 0;
+}
+#quotes .quote strong {
+	font-style: italic;
+	float: right;
+}
+/*----- Mailing list and share buttons -----*/
+#social {
+	width: 880px;
+	height: 45px;
+	float: left;
+	padding: 10px;
+	margin: 0 0 20px 0;
+	background: url(../img/social_box.png) no-repeat;
+}
+#social .newsletter {
+	width: 405px;
+	height: 34px;
+	float: left;
+	margin: 3px 0 0 3px;
+}
+/*----- Textfield -----*/
+#social .newsletter .field {
+	width: 310px;
+	padding: 6px 0 5px 0;
+	margin: 1px 0 0 7px;
+	background: none;
+	border: none;
+	color: #888;
+	font-size: 16px;
+	float: left;
+}
+/*----- Webkit and IE fixes for form -----*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#social .newsletter .field {
+		padding: 12px 0 2px 0;
+	}
+}
+/*----- Submit -----*/
+#social .newsletter .submit {
+	width: 72px;
+	height: 34px;
+	background: none;
+	margin: 0 5px 0 0;
+	border: none;
+	cursor: pointer;
+	text-indent: -9999px;
+	float: right;
+	font-size: 0;
+	display: block;
+	line-height: 0;
+}
+#social .newsletter .submit:hover {
+	background: #fff;
+	filter: alpha(opacity=10);
+	-moz-opacity: 0.1;
+	-khtml-opacity: 0.1;
+	opacity: 0.1;
+}
+/*----- Share -----*/
+#social .share {
+	float: right;
+}
+#social .share ul {
+	list-style-type: none;
+	margin: 0;
+}
+#social .share ul li {
+	float: left;
+	margin: 0 0 0 8px;
+}
+/*----- Bottom CTA -----*/
+.last_chance {
+	width: 900px;
+	float: left;
+	margin: 0 0 10px 0;
+}
+.last_chance h4 {
+	font-size: 20px;
+	color: #333;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 0 1px 0 #fff;
+}
+.last_chance p {
+	width: 640px;
+	font-size: 14px;
+	line-height: 1.5em;
+	float: left;
+	color: #444;
+	text-shadow: 0 1px 0 #fff;
+}
+.last_chance .buy {
+	margin: 0;
+	float: right;
+}
+.last_chance .buy:hover {
+	color: #fff;
+}
+/*----- Footer-----*/
+#footer {
+	width: 900px;
+	float: left;
+	padding: 15px 0 0 0;
+	margin: 0;
+	border-top: 1px dotted #ccc;
+	text-shadow: 0 1px 0 #fff;
+}
+#footer a {
+	font-weight: bold;
+}
+#footer .alignright a {
+	float: right;
+}
+#footer .divider {	
+	height: 16px;
+	width: 16px;
+	background: url(../img/footer_divider.png) no-repeat bottom;
+	margin: 0 5px;
+	float: right;
+}
