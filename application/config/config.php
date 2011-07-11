@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://driveltd.com/';
+$config['base_url']	= 'http://driveltd.fluxflex.com/';
 
 /*
 |--------------------------------------------------------------------------
